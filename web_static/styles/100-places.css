@@ -46,6 +46,7 @@ article h2 {
   border-bottom: #dddddd 1px solid;
   display: flex;
   margin-top: 10px;
+  width: 100%;
 }
 
 .max_guest,
@@ -88,18 +89,18 @@ article h2 {
   line-height: 1.4em;
 }
 
-.amenities,
+article .amenities,
 .reviews {
   margin-top: 40px;
 }
 
-.amenities h2,
+article .amenities h2,
 .reviews h2 {
   font-size: 16px;
   border-bottom: 1px #dddddd solid;
 }
 
-.amenities ul > li {
+article .amenities ul > li {
   list-style: none;
   padding-block: 20px;
 }
@@ -108,7 +109,7 @@ article h2 {
   list-style: none;
 }
 
-.amenities ul li > span {
+article .amenities ul li > span {
   padding-left: 55px;
 }
 
