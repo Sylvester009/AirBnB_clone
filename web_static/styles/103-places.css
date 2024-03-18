@@ -1,0 +1,150 @@
+.places h1 {
+    text-align: left;
+    font-size: 30px;
+  }
+  
+  article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px #ff5a5f solid;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  article h2 {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  
+  .article-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .inner-place {
+    display: flex;
+    width: 100%;
+  }
+  
+  .price_by_night {
+    color: #ff5a5f;
+    border: #ff5a5f 4px solid;
+    border-radius: 50%;
+    min-width: 60px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .information {
+    height: 80px;
+    border-top: #dddddd 1px solid;
+    border-bottom: #dddddd 1px solid;
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .max_guest,
+  .number_rooms,
+  .number_bathrooms {
+    width: 100%;
+  }
+  
+  .max_guest {
+    background-image: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    background-position: center 0px;
+  }
+  
+  .number_rooms {
+    background-image: url("../images/icon_bed.png");
+    background-repeat: no-repeat;
+    background-position: center 0px;
+  }
+  
+  .number_bathrooms {
+    background-image: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    background-position: center 0px;
+  }
+  
+  .information p {
+    padding-top: 35px;
+    text-align: center;
+  }
+  
+  .user {
+    font-weight: bold;
+    padding: 10px 10px 5px;
+  }
+  
+  .description {
+    padding: 5px 10px;
+    word-spacing: 2px;
+    line-height: 1.4em;
+  }
+  
+  article .amenities,
+  .reviews {
+    margin-top: 40px;
+  }
+  
+  article .amenities h2,
+  .reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px #dddddd solid;
+  }
+  
+  article .amenities ul > li {
+    list-style: none;
+    padding-block: 20px;
+  }
+  
+  .reviews ul > li {
+    list-style: none;
+  }
+  
+  article .amenities ul li > span {
+    padding-left: 55px;
+  }
+  
+  .tv {
+    background-image: url(../images/icon_tv.png);
+    background-repeat: no-repeat;
+    background-position: -5px center;
+  }
+  .wifi {
+    background-image: url(../images/icon_wifi.png);
+    background-repeat: no-repeat;
+    background-position: -5px center;
+  }
+  .pet {
+    background-image: url(../images/icon_pets.png);
+    background-repeat: no-repeat;
+    background-position: -5px center;
+  }
+  
+  .reviews ul li > h3 {
+    font-size: 14px;
+  }
+  
+  .reviews ul li > p {
+    font-size: 12px;
+  }
+  
+  @media screen and (max-width: 380px) {
+    .inner-place {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .price_by_night {
+      justify-content: center;
+    }
+  }
+  
